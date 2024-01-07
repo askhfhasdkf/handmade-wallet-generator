@@ -34,7 +34,7 @@ class Mnemonic:
         return key_array
         
     def generate_mnemonic(self):
-        entropy = self.entropy_generator.generate_entropy()
+        entropy = self.entropy_generator.generate()
         hashed_string = self._to_sha256_hash(entropy)
         checksum = self._get_checksum(hashed_string)        
         bit_array = entropy + checksum

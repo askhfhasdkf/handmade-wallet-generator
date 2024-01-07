@@ -7,7 +7,7 @@ class EntropyGenerator():
         if seed is not None:
             random.seed(seed)
             
-    def generate_entropy(self) -> str:
+    def generate(self) -> str:
         '''
         Returns string of 128 or 256 bits
         '''
