@@ -23,12 +23,14 @@ def get_word_number():
 
 
 def greetings():
-    brand_label = "========== M A K E D 0 N 1 A N =========="
     name_label = "========= Wallet Creator ========="
+    brand_label = "========== Author: M A K E D 0 N 1 A N =========="
+    telegram = "======== https://t.me/maked0n1an ========" 
     
     print("")
-    center_output(brand_label)
     center_output(name_label)
+    center_output(brand_label)
+    center_output(telegram)
     
     
 def create_wallets() -> List[str]:    
