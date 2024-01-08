@@ -25,7 +25,7 @@ def get_word_number():
 def greetings():
     name_label = "========= Wallet Creator ========="
     brand_label = "========== Author: M A K E D 0 N 1 A N =========="
-    telegram = "======== https://t.me/maked0n1an ========" 
+    telegram = "======== https://t.me/makedan1an ========" 
     
     print("")
     center_output(name_label)
